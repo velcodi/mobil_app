@@ -78,12 +78,11 @@
                   <div class="compare-middle">
                     <img src="assets/img/arrow_right.png">
                     <h3 class="subtitle">LED</h3>
-
-                    <a class="btn-floating waves-effect waves-light yellow"><i class="material-icons">settings</i></a><br>
-                    <a class="btn-floating waves-effect waves-light red"><i class="fa fa-times" aria-hidden="true"></i></a>
-
+                    <a href="#!" class="btn-floating btn_settings waves-effect waves-light yellow"><i class="material-icons">settings</i></a><br>
+                    <a href="#alertdetele" class="btn-floating btn_alert_delete waves-effect waves-light red"><i class="fa fa-times" aria-hidden="true"></i></a>
                   </div>
                 </div>
+
                 <!--Card-->
                 <div class="col s5">
                   <div class="item bottom_space">
@@ -129,8 +128,11 @@
                   <div class="compare-middle">
                     <img src="assets/img/arrow_right.png">
                     <h3 class="subtitle">LED</h3>
+                    <a href="#!" class="btn-floating btn_settings waves-effect waves-light yellow"><i class="material-icons">settings</i></a><br>
+                    <a href="#alertdetele" class="btn-floating btn_alert_delete waves-effect waves-light red"><i class="fa fa-times" aria-hidden="true"></i></a>
                   </div>
                 </div>
+
                 <!--Card-->
                 <div class="col s5">
                   <div class="item bottom_space">
@@ -193,6 +195,23 @@
         <li><a href="p10.html">Page 10</a></li>
       </ul>
 
+      <!-- Modal Structure -->
+      <div id="alertdetele" class="modal">
+        <div class="modal-content">
+          <p class="note">¿Seguro que quieres<br>eliminar esta línea?</p>
+          <div class="row btn_top_page">
+              <div class="topsepatation fsepare col s12">
+                <a class="waves-effect waves-light btn btn_remove btn-larger green">Aceptar</a>
+              </div>
+              <div class="topsepatation col s12">
+                <a href="#!" class="modal-action modal-close waves-effect waves-light btn btn_back btn-larger red">Cerrar</a>
+              </div>
+            </div>
+        </div>
+        <!--<div class="modal-footer">&nbsp;</div>-->
+      </div>
+
+
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <!-- Compiled and minified JavaScript 
         <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -203,8 +222,17 @@
 
       <script type="text/javascript">
         $(document).ready(function() {
+          
           $('select').material_select();
-            $(".button-collapse").sideNav();
+          
+          $(".button-collapse").sideNav();
+          
+          $('.modal').modal();
+
+          $('#btn_alert_delete').on('click', function(){
+            $('#alertdetele').modal('open');
+          });
+
         });
       </script>
     </body>
