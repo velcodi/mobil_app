@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <title>SYSAPP</title>
+
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified CSS 
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+       -->
+      <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">        
+      <link type="text/css" rel="stylesheet" href="assets/css/style.css"  media="screen,projection"/>
+
+    </head>
+
+    <body>
+      <div id="newUser" >
+        <div id="content">
+        <header class="header_in">
+          <div class="container">
+            <div class="row">
+              <div class="col s6">
+                <div class="arrow_back left">
+                  <img src="assets/img/arrow_left.png"> 
+                </div>
+              </div>
+              <div class="col s6 rigth">
+                <a href="#" data-activates="slide-out" class="button-collapse show-on-large"> 
+                  <img id="logo" src="assets/img/logo_in.png">
+                </a> 
+              </div>
+            </div>
+          </div>
+        </header>
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <h2 class="subtitle">NUEVO <span>USUARIO</span></h2>
+              </div>
+            </div>
+            <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">person_pin</i>
+                      <input id="icon_name" type="text" class="validate">
+                      <label for="icon_name">Nombre</label>
+                    </div>
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">email</i>
+                      <input id="icon_email" type="text" class="validate">
+                      <label for="icon_email">Email</label>
+                    </div>
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">phone</i>
+                      <input id="icon_phone" type="text" class="validate">
+                      <label for="icon_phone">Teléfono</label>
+                    </div>
+                    <div class="input-field topsepatation col s12">
+                      <i class="material-icons prefix">lock_outline</i>
+                      <input id="icon_password" type="password" class="validate">
+                      <label for="icon_password">Contraseña</label>
+                    </div>
+                    <div class="topsepatation col s12">
+                      <a class="waves-effect waves-light btn btn-larger green">Nuevo Usuario <i class="material-icons right">send</i></a>
+                    </div>
+                  </div>
+                </form>
+              
+                <div class="input-field col s12">
+                  <a href="#/" class="black-text">¿Olvidaste tu contrtaseña?</a>
+                </div>
+              </div>
+
+          </div><!-- END .Container-->
+
+        </section>
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="bluecdr col s12">
+                <p>&nbsp;</p>
+              </div>   
+            </div>
+          </div>
+        </footer>
+      </div><!--END #login-->
+
+      <ul id="slide-out" class="side-nav">
+        <li><a href="index.html">Page 1</a></li>
+        <li><a href="p2.html">Page 2</a></li>
+        <li><a href="p3.html">Page 3</a></li>
+        <li><a href="p4.html">Page 4</a></li>
+        <li><a href="p5.html">Page 5</a></li>
+        <li><a href="p6_1.html">Page 6</a></li>
+        <li><a href="p6_2.html">Page 6.2</a></li>
+        <li><a href="p6_3.html">Page 6.3</a></li>
+        <li><a href="p6_4.html">Page 6.4</a></li>
+        <li><a href="p6_5.html">Page 6.5</a></li>
+        <li><a href="p6_7.html">Page 6.7</a></li>
+        <li><a href="p8.html">Page 8</a></li>
+        <li><a href="p10.html">Page 10</a></li>
+      </ul>
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <!-- Compiled and minified JavaScript 
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+      -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    
+      <!--<script src="https://use.fontawesome.com/6f53e9eb06.js"></script>-->
+
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $('select').material_select();
+            $(".button-collapse").sideNav();
+        });
+      </script>
+    </body>
+  </html>

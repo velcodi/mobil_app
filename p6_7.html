@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <title>SYSAPP</title>
+
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified CSS 
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+       -->
+      <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">        
+      <link type="text/css" rel="stylesheet" href="assets/css/style.css"  media="screen,projection"/>
+
+    </head>
+
+    <body>
+      <div id="projectView" >
+        <div id="content">
+        <header class="header_in">
+          <div class="container">
+            <div class="row">
+              <div class="col s6">
+                <div class="arrow_back left">
+                  <img src="assets/img/arrow_left.png"> 
+                </div>
+              </div>
+              <div class="col s6 rigth">
+                <a href="#" data-activates="slide-out" class="button-collapse show-on-large"> 
+                  <img id="logo" src="assets/img/logo_in.png">
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+        <section>
+          <div class="container">
+            
+            <div class="row">
+              <div class="col s12">
+                <p class="note bnote"><span class="product">Resumen de calculo</span></p>
+              </div>
+            </div>
+
+            
+            <div id="listitems">
+
+              <!--Row items-->
+              <div class="row">
+                <!--Card-->
+                <div class="col s5">
+                  <div class="item bottom_space">
+                    <p><a href="#">Product name</a><br><span class="watt">40W</span> <span class="uds">100Uds.</span></p>
+                    <div class="card">
+                      <div class="card-content">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="assets/img/office.jpg">
+                          <div class="float_foot_labels">
+                            <a href="#" class="btn btn_price blue">16,95&euro;</a>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <span class="old red">Antiguo</span>
+                </div><!--END .card-->
+
+                <div class="col s2">
+                  <div class="compare-middle">
+                    <img src="assets/img/arrow_right.png">
+                    <h3 class="subtitle">LED</h3>
+                  </div>
+                </div>
+                <!--Card-->
+                <div class="col s5">
+                  <div class="item bottom_space">
+                    <p><a href="#">Product name</a><br><span class="watt">40W</span> <span class="uds">100Uds.</span></p>
+                    <div class="card">
+                      <div class="card-content">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="assets/img/office.jpg">
+                          <div class="float_foot_labels">
+                            <a href="#" class="btn btn_price blue">16,95&euro;</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <span class="old red">LED</span>
+                </div><!--END .card-->
+              
+              </div><!--END Row items-->
+                      
+            
+            </div><!--END #listitems-->
+
+            <div class="row btn_top_page">
+              <div class="topsepatation fsepare col s12">
+                <a class="waves-effect waves-light btn btn-larger green">Guardar</a>
+              </div>
+              <div class="topsepatation col s12">
+                <a class="waves-effect waves-light btn btn-larger red">Volver</a>
+              </div>
+            </div>
+
+          </div><!-- END .Container-->
+
+        </section>
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="bluecdr col s12">
+                <p>&nbsp;</p>
+              </div>   
+            </div>
+          </div>
+        </footer>
+      </div><!--END #login-->
+
+      <ul id="slide-out" class="side-nav">
+        <li><a href="index.html">Page 1</a></li>
+        <li><a href="p2.html">Page 2</a></li>
+        <li><a href="p3.html">Page 3</a></li>
+        <li><a href="p4.html">Page 4</a></li>
+        <li><a href="p5.html">Page 5</a></li>
+        <li><a href="p6_1.html">Page 6</a></li>
+        <li><a href="p6_2.html">Page 6.2</a></li>
+        <li><a href="p6_3.html">Page 6.3</a></li>
+        <li><a href="p6_4.html">Page 6.4</a></li>
+        <li><a href="p6_5.html">Page 6.5</a></li>
+        <li><a href="p6_7.html">Page 6.7</a></li>
+        <li><a href="p8.html">Page 8</a></li>
+        <li><a href="p10.html">Page 10</a></li>
+      </ul>
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <!-- Compiled and minified JavaScript 
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+      -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    
+      <!--<script src="https://use.fontawesome.com/6f53e9eb06.js"></script>-->
+
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $('select').material_select();
+            $(".button-collapse").sideNav();
+        });
+      </script>
+    </body>
+  </html>

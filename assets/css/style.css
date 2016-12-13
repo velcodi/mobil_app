@@ -1,0 +1,258 @@
+
+/*#26a69a*/
+body{
+	text-align: center!important;
+}
+
+form .input-field{
+	text-align: left!important;
+}
+
+#content {
+  min-height: calc(100vh - 50px);
+}
+
+.old, .led{
+	padding: 5px 10px;
+	color: #fcfcfc;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.projectdescription .subtitle-price{
+	margin-top: 100px;
+}
+
+.projectdescription .subtitle, .projectdescription .note{
+	text-align: left;
+}
+
+.projectdescription .important{
+	font-weight: bold;
+}
+
+/*Login styles  p.1*/
+#login  #logo{
+	width: 90%;
+	margin: 80px auto 60px auto;
+}
+
+h2.subtitle{
+	color: #001781!important;
+	font-weight: bold;
+	font-size: 2em;
+	margin-top: 40px;
+}
+
+h3.subtitle{
+	color: #001781!important;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 0px;
+}
+
+h2.subtitle-price{
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+h2.subtitle span{
+	font-weight: normal;
+}
+
+#login #slogan h2{
+	font-size: 3em!important;
+	line-height: .5em;
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+#login #slogan span.desc_subtitle{
+	font-size: .5em!important;
+}
+.topsepatation{
+	margin-bottom: 20px!important;
+}
+
+.topsepatation .btn{
+	width: 70%;
+}
+
+.note{
+	font-size: 1em;
+	color: #999999; 
+}
+
+.btn_top_page{
+	margin-top: 30px; 
+}
+
+/*Header app*/
+.header_in{
+	background: #DCE0E1;
+	padding: 20px 0 10px 0 ;
+}
+
+.header_in .row{
+	margin: 0;
+}
+
+.header_in .arrow_back img{
+	width: 30px;
+	margin-top: 5px;
+}
+.header_in #logo{
+	width: 100%;
+}
+
+/*p2*/
+#listitems{
+	margin-top: 30px;
+}
+
+#listitems .divider{
+	margin-bottom: 10px;
+}
+
+.item{ position: relative;padding: 2px;}
+.item p{
+	margin: 0!important;
+	text-align: left;
+	font-size: 1.2em;
+	color:#001781!important;
+}
+
+.item p a{
+	color:#001781!important;
+}
+
+
+.item .card-content{
+	position: none;
+	padding: 5px!important;
+}
+
+.item .card-content div.waves-effect{
+	overflow: initial;
+	padding: 3px!important;
+}
+
+
+.item_separator{
+
+}
+
+.float_foot_labels{
+    width: 100%;
+	position: absolute;
+	bottom: -20px;
+	text-align: center;
+	overflow: auto;
+}
+
+.btn_price{
+}
+
+.btn_delete{
+	position: absolute;
+	top:5px;
+	right: 5px;
+}
+
+.footer {
+  height: 30px;
+  overflow: hidden;
+  background: #001781!important;
+}
+
+.bottom_space{
+	margin-bottom: 10px;
+}
+
+#p2 .btn_new_project{
+	margin-top: 60px;
+}
+
+/*p5*/
+
+#projectView{
+
+}
+
+#projectView h2.subtitle{
+	margin-top: 30px;
+}
+.compare-middle{
+	margin-top: 50px;
+}
+.compare-middle img{
+	width: 50%;
+}
+.compare-middle a{
+	margin-bottom: 10px;
+}
+.compare-middle .subtitle{
+	margin-bottom: 20px!important;
+}
+
+#projectView h3.subtitle{
+	margin: 5px auto;
+	line-height: 0.3em;
+}
+#projectView .btn_price{
+	left:15%;
+}
+
+#projectView .watt, #projectView .uds{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#projectView .watt{
+	color: #F44336;
+}
+#projectView .uds{
+	color:#001781;
+}
+
+/*
+p6 -projectNew
+
+*/
+#projectNew .note{
+	margin: 60px 0 40px 0;
+}
+
+#projectNew .bnote{
+	font-size: 1.5em;
+	margin: 30px 0 10px 0;
+}
+
+#projectView .bnote{
+	margin: 40px 0 10px 0;
+}
+
+#projectNew .product, #projectView .product{
+	font-weight: bold!important;
+}
+#projectNew .bnote .product, #projectView .bnote .product{
+	font-size: 1.5em;
+}
+
+#projectNew .fsepare{
+	margin-top: 40px!important;
+}
+#projectNew a.btn_watt{
+	margin-right:10px;
+}
+#projectNew .btn_prices {
+	margin-left: 10px;
+}
+
+/* */
+
+@media only screen and (max-width: 425px) {
+  	.float_foot_labels a{
+	    padding-left: 10px!important;
+	    padding-right: 10px!important;
+	}
+}
